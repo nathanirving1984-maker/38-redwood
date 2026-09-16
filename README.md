@@ -1,41 +1,30 @@
-# 38 Redwood — Listing Microsite
+# 38 Redwood Rd, Fairfax, CA 94930 — Listing Microsite
 
-Static 4-page listing site (Home / Gallery / Details / Contact). Plain HTML + CSS, no build step.
+Static 4-page listing site (Home / Gallery / Details / Contact) for MLS# 326076344.
+Plain HTML + CSS, no build step, served from the repo root.
 
-## Status: scaffold — listing facts still needed
+**$849,000 · 2 bed · 1 bath · 1,168 sq ft · 4,948 sq ft lot · built 1962**
 
-Every spot that needs real information is marked `[NEED: ...]` in the HTML. Find them all with:
+Open house: Saturday, September 19 & Sunday, September 20, 2026, 1:00–4:00 PM.
 
-```
-grep -rn "\[NEED" .
-```
+## Photos still needed
 
-Still to fill in:
+All listing copy is final. The 32 photo files are **not in the repo yet** — until they
+are added, the Gallery page and the home-page hero render as broken images. See
+`images/README.md` for the exact filenames the HTML expects.
 
-- Full street address (suffix, city, ZIP) — used in page titles, headings, and the map
-- List price, beds, baths, square footage, lot size, year built, property type
-- MLS #
-- 4 highlight bullets and the long-form description
-- Hero tagline
-- Neighborhood name + blurb
-- Open house date(s)/time(s) and showing instructions
-- Agent phone and email (name and DRE# are already set)
-- Google Maps embed URL (`details.html`, iframe is commented out until the address is confirmed)
-- Formspree endpoint — `contact.html` form `action` is `[FORMSPREE_ENDPOINT]`; the form will not
-  send until a real endpoint from formspree.io is dropped in
+## Contact form
 
-## Photos
-
-Drop files in `images/` using the names already referenced in `gallery.html`
-(`01-exterior-front.jpg`, `02-kitchen.jpg`, ...). Each slot currently renders a dashed
-placeholder box; swap the placeholder `<div>` for the commented-out `<img>` tag above it.
+`contact.html` posts to Formspree at `https://formspree.io/f/mqpakkla`. Send a test
+inquiry after deploying to confirm the endpoint is verified and mail is arriving.
 
 ## Deploying to GitHub Pages
 
-Settings → Pages → Source: "Deploy from a branch" → Branch: `main` (or this branch) / root.
-The site is served from the repo root, so `index.html` is the landing page.
+Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder: `/ (root)`.
+`index.html` is the landing page. `.nojekyll` is present so nothing is filtered by Jekyll.
 
 ## Compliance (do not strip)
 
-Every page footer carries: Nathan Irving, REALTOR® · DRE# 02414117 · Coldwell Banker Realty,
-Greenbrae · Equal Housing Opportunity · "information deemed reliable but not guaranteed."
+Every page footer carries: Nathan Irving, REALTOR® · DRE# 02414117 · Coldwell Banker
+Realty, Greenbrae · Equal Housing Opportunity · "information deemed reliable but not
+guaranteed." Verified present on all four pages.
