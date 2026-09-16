@@ -26,6 +26,9 @@ Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder
 
 ## Compliance (do not strip)
 
-Every page footer carries: Nathan Irving, REALTOR® · DRE# 02414117 · Coldwell Banker
+Every page footer carries: Ashley Reichow, REALTOR® · DRE# 02442088 · Coldwell Banker
 Realty, Greenbrae · Equal Housing Opportunity · "information deemed reliable but not
 guaranteed." Verified present on all four pages.
+
+Ashley Reichow is the listed host agent on this site. The footer also carries the
+Coldwell Banker logo (`images/cb-logo.png`); brand color is CB navy `#012269`.

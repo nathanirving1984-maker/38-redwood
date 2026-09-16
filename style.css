@@ -1,5 +1,5 @@
 :root {
-  --teal: #1B4F4C;
+  --teal: #012269;
   --gold: #B08D57;
   --cream: #F7F5F1;
   --dark: #22282A;
@@ -185,6 +185,7 @@ footer {
 footer .disclaimer { max-width: 700px; margin: 10px auto 0; color: #9aa19e; }
 footer .agent-line { color: #fff; font-weight: bold; margin-bottom: 4px; }
 footer .eho { color: var(--gold); margin-top: 6px; display: block; }
+footer .cb-logo { height: 64px; width: auto; margin-bottom: 14px; }
 
 @media (max-width: 600px) {
   nav a { margin-left: 12px; font-size: 0.85rem; }
