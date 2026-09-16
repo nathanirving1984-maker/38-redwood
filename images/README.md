@@ -36,7 +36,7 @@ Files 31 and 32 are the floor plans and render uncropped (not in the 220px grid 
 - `26-laundry-closet.jpg` — Laundry closet on the main level, adjacent to the kitchen
 - `27-carport-exterior.jpg` — Carport exterior
 - `28-carport-interior.jpg` — Carport interior
-- `29-subarea-1.jpg` — Rough-framed subarea 1 of 2, approx. 1,100 sq ft with 9&rsquo;8&quot; ceiling
+- `29-subarea-1.jpg` — Rough-framed subarea 1 of 2, approx. 1,100 sq ft with a 9'8" ceiling
 - `30-subarea-2.jpg` — Rough-framed subarea 2 of 2, approx. 1,000 sq ft
 - `31-floor-plan-main.jpg` — main level floor plan, 1,193 sq ft
 - `32-floor-plan-basement.jpg` — basement floor plan
