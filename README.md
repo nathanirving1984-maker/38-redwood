@@ -7,11 +7,12 @@ Plain HTML + CSS, no build step, served from the repo root.
 
 Open house: Saturday, September 19 & Sunday, September 20, 2026, 1:00–4:00 PM.
 
-## Photos still needed
+## Photos
 
-All listing copy is final. The 32 photo files are **not in the repo yet** — until they
-are added, the Gallery page and the home-page hero render as broken images. See
-`images/README.md` for the exact filenames the HTML expects.
+All 33 photos are in `images/` (~6.5 MB total, 1500px wide). `01-living-room-view.jpg`
+is used twice: as a gallery tile and as the full-width hero on the home page.
+`31-` and `32-` are the floor plans and render uncropped rather than in the grid tiles.
+`images/README.md` maps every filename to its caption.
 
 ## Contact form
 

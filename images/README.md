@@ -1,7 +1,7 @@
 # Photos for 38 Redwood Rd
 
-The site references the 32 files below by exact filename. Drop them in this folder
-with these names and every page fills in — no HTML edits needed.
+All 33 files below are present and referenced by the site. Keep these exact filenames —
+the HTML points at them directly. To swap a photo, overwrite the file in place.
 
 `01-living-room-view.jpg` does double duty: it is also the full-width hero image on
 the home page, so pick the strongest shot for that slot.
@@ -40,3 +40,4 @@ Files 31 and 32 are the floor plans and render uncropped (not in the 220px grid 
 - `30-subarea-2.jpg` — Rough-framed subarea 2 of 2, approx. 1,000 sq ft
 - `31-floor-plan-main.jpg` — main level floor plan, 1,168 sq ft
 - `32-floor-plan-basement.jpg` — basement floor plan
+- `33-hillside-view-2.jpg` — View across the wooded valley to the oak-covered ridgeline
