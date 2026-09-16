@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | 38 Redwood [NEED: St/Dr/Ave], [NEED: City], CA [NEED: ZIP]</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">Nathan Irving, REALTOR®<span class="dre">Coldwell Banker Realty &middot; DRE# 02414117</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="details.html">Details</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Schedule a Showing or Ask a Question</h2>
+    <form action="[FORMSPREE_ENDPOINT]" method="POST">
+      <input type="hidden" name="_subject" value="New inquiry: 38 Redwood [NEED: St/Dr/Ave], [NEED: City], CA [NEED: ZIP]">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="I'd like to schedule a showing / ask about..."></textarea>
+
+      <button type="submit">Send Inquiry</button>
+    </form>
+
+    <div class="contact-direct">
+      <p>Or reach out directly:</p>
+      <p><a href="tel:[NEED: agent phone]">[NEED: agent phone]</a></p>
+      <p><a href="mailto:[NEED: agent email]">[NEED: agent email]</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="agent-line">Nathan Irving, REALTOR®</div>
+  <div>[NEED: agent phone] &middot; [NEED: agent email]</div>
+  <div>DRE# 02414117 &middot; Coldwell Banker Realty, Greenbrae</div>
+  <span class="eho">Equal Housing Opportunity</span>
+  <p class="disclaimer">MLS# [NEED: MLS #]. Information deemed reliable but not guaranteed. All measurements and square footage are approximate. Buyer to verify all information to their own satisfaction.</p>
+</footer>
+
+</body>
+</html>
